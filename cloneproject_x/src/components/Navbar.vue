@@ -38,7 +38,7 @@ export default {
             ]
         };
     },
-    components: { Dropdown }
+
 }
 </script>
 
@@ -50,7 +50,7 @@ nav {
 
 }
 
-nav .menu-items {
+nav .menu-item {
     color: #fff;
     padding: 10px 20px;
     position: relative;
