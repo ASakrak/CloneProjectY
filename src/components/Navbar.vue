@@ -45,7 +45,7 @@ export default {
 <style>
 nav {
     display: flex;
-    align-items: center;
+
     justify-content: center;
 
 }
@@ -56,7 +56,7 @@ nav .menu-item {
     position: relative;
     text-align: center;
     border-bottom: 3px solid transparent;
-    display: flex;
+
     transition: 0.4s;
 
 }
@@ -64,7 +64,7 @@ nav .menu-item {
 nav .menu-item.active,
 nav .menu-item:hover {
     background-color: rgb(0, 0, 0);
-    border-bottom-color: rgb(165, 165, 165);
+    border-bottom-color: rgb(0, 0, 0);
 }
 
 nav .menu-item a {
